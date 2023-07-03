@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:paddingHorizontal="20dp"
+            android:text="@string/bienvenida"
+            android:textColor="@color/purple_700"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/get_name"
+            android:layout_width="263dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="100dp"
+            android:ems="10"
+            android:hint="@string/hint_name"
+            android:layout_gravity="center"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/comenzar_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="200dp"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center"
+            android:text="@string/btn_comenzar" />
+    </LinearLayout>
+
+</FrameLayout>

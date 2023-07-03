@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Trivia App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bienvenida">Bienvenido a Logo Trivia, Ingresa tu nombre para comenzar... </string>
+    <string name="hint_name"> Escribe tu nombre </string>
+    <string name="btn_comenzar"> Comenzar </string>
+    <string name="hola_text"> Hola </string>
+    <string name="pregunta_text"> ¿ A Qué logo pertenece la imagen ? </string>
+    <string name="opcion1"> Facebook</string>
+    <string name="opcion2"> Twitter</string>
+    <string name="opcion3"> Whatsapp</string>
+    <string name="opcion4"> Instagram</string>
+    <string name="btn_answer"> Enviar</string>
+    <string name="btn_back"> intentalo otra vez </string>
+</resources>
